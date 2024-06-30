@@ -1,4 +1,4 @@
-const a = 4;
+const some = 4;
 const booleanVar= true;
 const nullVar = null;
 const objectVar = {name: "Anton"};
@@ -7,7 +7,7 @@ const stringname = "Anton";
 let undefinedVar;
 let functionVar = function() { return "this is function";};
 
-console.log(typeof a);// number
+console.log(typeof some);// number
 console.log(typeof stringname);//string
 console.log(typeof booleanVar);//boolean
 console.log(typeof nullVar);//object
@@ -15,6 +15,18 @@ console.log(typeof objectVar);//object
 console.log(typeof arrayVar);//object
 console.log(typeof undefinedVar);//undefined
 console.log(typeof functionVar);//function
+
+//домашка 3.2
+let string1 = prompt("Введіть перший рядок:");
+let string2 = prompt("Введіть ваше другий рядок:");
+let string3 = prompt("Введіть ваше останній рядок:");
+console.log(`Ось ваші три рядки у довільному порядку : ${string3}, ${string1} ,${string2}`);
+
+//домашка 3.3
+let numberFive = 42680;
+let [a , b , c , d , e] = number.toString();
+let result = `${a},${b},${c},${d}, ${e}`;
+console.log(result); // "4 2 6 8 0"
 
 
 
