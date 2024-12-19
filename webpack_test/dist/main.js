@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".header");document.getElementById("changeColorBtn").addEventListener("click",(()=>{e.style.color="red"===e.style.color?"#333":"red"}))})),console.log("Hello, Webpack!");

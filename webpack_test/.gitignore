@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+
+# Вихідні файли Webpack
+dist/
+
+# Тимчасові файли та каталоги
+*.log
+*.lock
+*.tmp
+*.temp
+*.cache
+*.pid
+*.gz
+*.zip
+
+# Конфігураційні файли ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Індивідуальні конфігураційні файли IDE/редакторів коду
+.vscode/
+.idea/
+*.swp
